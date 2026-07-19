@@ -93,7 +93,7 @@ export default function CarDetailPage() {
   const whatsappMsg = `Hello Wazir Trading, I'm interested in the ${car.year} ${car.make} ${car.model} (Ref: ${car.ref_number}). Could you provide more details?`;
 
   return (
-    <div className="pt-20">
+    <div>
       {/* Breadcrumb */}
       <div className="bg-brand-dark-2 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-2 text-sm">

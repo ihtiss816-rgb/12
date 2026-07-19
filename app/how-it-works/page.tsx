@@ -91,7 +91,7 @@ const faqs = [
 
 export default function HowItWorksPage() {
   return (
-    <div className="pt-20">
+    <div>
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0 bg-hero-gradient" />

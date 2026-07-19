@@ -20,7 +20,7 @@ export const metadata = { title: 'About Us — Wazir Trading LLC' };
 
 export default function AboutPage() {
   return (
-    <div className="pt-20">
+    <div>
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

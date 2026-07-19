@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AlertBar from '@/components/AlertBar';
+import InfoBar from '@/components/InfoBar';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -26,6 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-brand-dark text-white antialiased">
+        <AlertBar />
+        <InfoBar />
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />

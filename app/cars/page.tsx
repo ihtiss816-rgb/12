@@ -81,7 +81,7 @@ function CarsContent() {
   );
 
   return (
-    <div className="pt-20">
+    <div>
       {/* Page Header */}
       <section className="bg-brand-dark-2 border-b border-white/5 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
